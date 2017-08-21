@@ -4,7 +4,7 @@ from mysql.connector import MySQLConnection, Error
 import openpyxl
 import sys
 from datetime import datetime
-from libScan import read_config
+from lib import read_config
 
 
 dbconfig = read_config(section='mysql')
